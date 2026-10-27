@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Read to Pass</title>
+<style>
+  :root{
+    --bg:#0f1b2d; --card:#17263d; --ink:#f3f6fb; --muted:#aab8cf;
+    --gold:#f5b942; --green:#3ecf8e; --line:#26385a;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+  .wrap{max-width:720px;margin:0 auto;padding:0 16px 48px}
+  header{padding:48px 0 28px;text-align:center}
+  header .tag{display:inline-block;background:var(--gold);color:#1a1200;font-weight:700;
+    font-size:12px;letter-spacing:.12em;padding:4px 12px;border-radius:99px}
+  h1{font-size:2.4rem;line-height:1.1;margin:16px 0 10px}
+  h1 span{color:var(--gold)}
+  header p{color:var(--muted);margin:0 auto;max-width:520px}
+  nav{display:flex;gap:8px;overflow-x:auto;padding:10px 0 18px;position:sticky;top:0;background:var(--bg);z-index:5}
+  nav a{white-space:nowrap;color:var(--ink);text-decoration:none;border:1px solid var(--line);
+    padding:7px 14px;border-radius:99px;font-size:14px}
+  section{background:var(--card);border:1px solid var(--line);border-radius:18px;
+    padding:22px 20px;margin:16px 0}
+  section h2{margin:0 0 4px;font-size:1.5rem}
+  .kicker{color:var(--gold);font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+  p{margin:10px 0}
+  ol,ul{padding-left:20px;margin:10px 0}
+  li{margin:8px 0}
+  .big{font-size:1.15rem;border-left:4px solid var(--gold);padding-left:14px;margin:16px 0}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+  .stat{background:#0f1b2d;border:1px solid var(--line);border-radius:12px;padding:12px;text-align:center}
+  .stat b{display:block;font-size:1.5rem;color:var(--green)}
+  .stat small{color:var(--muted)}
+  .steps li{list-style:none;margin-left:-20px;padding:12px 14px;background:#0f1b2d;
+    border:1px solid var(--line);border-radius:12px}
+  .steps b{color:var(--gold)}
+  .check label{display:flex;gap:12px;align-items:flex-start;padding:12px;margin:8px 0;
+    background:#0f1b2d;border:1px solid var(--line);border-radius:12px;cursor:pointer}
+  .check input{width:22px;height:22px;accent-color:var(--green);flex:none;margin-top:2px}
+  .bar{height:12px;background:#0f1b2d;border-radius:99px;overflow:hidden;margin-top:14px;border:1px solid var(--line)}
+  .bar i{display:block;height:100%;width:0;background:var(--green);transition:width .3s}
+  #msg{margin:10px 0 0;color:var(--gold);font-weight:600;min-height:1.4em}
+  footer{text-align:center;color:var(--muted);padding:24px 0;font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <span class="tag">SCHOOL SUCCESS</span>
+  <h1>Read to <span>Pass.</span></h1>
+  <p>Every subject, every exam, every question starts with one skill: reading. Master it, and passing stops being luck.</p>
+</header>
+
+<nav>
+  <a href="#reading">Reading</a>
+  <a href="#motivation">Motivation</a>
+  <a href="#discipline">Discipline</a>
+  <a href="#desert">Desert</a>
+  <a href="#today">Today</a>
+</nav>
+
+<section id="reading">
+  <div class="kicker">Focus</div>
+  <h2>Reading is how you pass</h2>
+  <p>Exams are written in words. Maths problems, science questions, history essays: if you cannot read and understand them, you cannot answer them. Students who read well learn faster in every subject.</p>
+  <p class="big">Reading is not just looking at pages. Reading is thinking with a pencil in your hand.</p>
+  <div class="grid">
+    <div class="stat"><b>30 min</b><small>of focused reading daily</small></div>
+    <div class="stat"><b>3 times</b><small>read it, recall it, repeat it</small></div>
+  </div>
+  <h3>The 5-step reading method</h3>
+  <ol class="steps">
+    <li><b>1. Preview.</b> Look at the title, headings and pictures first. Know what is coming.</li>
+    <li><b>2. Ask.</b> Turn each heading into a question you want answered.</li>
+    <li><b>3. Read.</b> Read slowly to answer your question. Underline key words only.</li>
+    <li><b>4. Recall.</b> Close the book. Say or write what you remember in your own words.</li>
+    <li><b>5. Review.</b> Check what you missed. Read it again tomorrow, then at the end of the week.</li>
+  </ol>
+  <h3>Reading tips that raise marks</h3>
+  <ul>
+    <li>Read your notes and textbooks, not only past papers.</li>
+    <li>Look up every new word and write its meaning in a small notebook.</li>
+    <li>Read exam questions twice before you write a single word.</li>
+    <li>Read aloud when a topic is hard. Your ears help your brain.</li>
+    <li>Read a little of everything: stories, news, textbooks. Your vocabulary grows.</li>
+  </ul>
+</section>
+
+<section id="motivation">
+  <div class="kicker">Why you keep going</div>
+  <h2>Motivation</h2>
+  <p>Motivation is the reason you start. Find yours and write it down.</p>
+  <ul>
+    <li><b>Know your why.</b> Maybe it is your family, your dream job, or proving doubters wrong. Keep it where you can see it.</li>
+    <li><b>Set a clear target.</b> "Pass with a good grade in every subject" is better than "do well".</li>
+    <li><b>Picture the day results come.</b> Imagine opening them and smiling. Let that picture pull you forward.</li>
+    <li><b>Celebrate small wins.</b> Finished a chapter? That counts. Progress builds confidence.</li>
+    <li><b>Surround yourself well.</b> Study with friends who also want to pass.</li>
+  </ul>
+  <p class="big">You do not need to be the smartest in the class. You need to be the one who keeps showing up.</p>
+</section>
+
+<section id="discipline">
+  <div class="kicker">Why you keep going when you don't feel like it</div>
+  <h2>Discipline</h2>
+  <p>Motivation comes and goes. Discipline stays. It is doing the work on the days you do not feel like it.</p>
+  <ul>
+    <li><b>Fix a time.</b> Same time, same place, every day. Habit beats mood.</li>
+    <li><b>Remove distractions.</b> Phone away, silent, out of reach.</li>
+    <li><b>Start small.</b> Just 10 minutes. Once you begin, you usually continue.</li>
+    <li><b>Plan tomorrow tonight.</b> Write what you will read before you sleep.</li>
+    <li><b>Protect your sleep.</b> A rested brain remembers more than a tired one.</li>
+    <li><b>Never miss twice.</b> Missed a day? Fine. Be back the next day.</li>
+  </ul>
+  <p class="big">Discipline is a gift to your future self.</p>
+</section>
+
+<section id="desert">
+  <div class="kicker">What you earn</div>
+  <h2>Desert</h2>
+  <p>"Desert" means what you deserve: the result that matches your effort. You cannot get a pass you have not earned, but you can earn it.</p>
+  <ul>
+    <li><b>Sow, then harvest.</b> Every page you read today is a seed. Exam day is harvest day.</li>
+    <li><b>Shortcuts do not last.</b> Copying and guessing may help once, but knowledge stays with you for life.</li>
+    <li><b>Reward yourself.</b> After a good study session, enjoy a treat, a walk, or time with friends. You earned it.</li>
+    <li><b>Be proud of honest results.</b> A pass you worked for feels better than any gift.</li>
+  </ul>
+  <p class="big">Work first. Rest and reward after. You will get what you deserve, so deserve a lot.</p>
+</section>
+
+<section id="today" class="check">
+  <div class="kicker">Start now</div>
+  <h2>Today's checklist</h2>
+  <label><input type="checkbox"> I read for at least 30 focused minutes</label>
+  <label><input type="checkbox"> I used the 5-step method on one topic</label>
+  <label><input type="checkbox"> I wrote down 3 new words and their meanings</label>
+  <label><input type="checkbox"> My phone stayed away while I studied</label>
+  <label><input type="checkbox"> I planned what to read tomorrow</label>
+  <div class="bar"><i id="fill"></i></div>
+  <p id="msg"></p>
+</section>
+
+<footer>Read. Believe. Work. Pass.</footer>
+</div>
+
+<script>
+(function(){
+  var boxes=document.querySelectorAll('.check input');
+  var fill=document.getElementById('fill');
+  var msg=document.getElementById('msg');
+  var key='readToPass-'+new Date().toDateString();
+  var saved=[];
+  try{saved=JSON.parse(localStorage.getItem(key)||'[]');}catch(e){}
+  boxes.forEach(function(b,i){b.checked=!!saved[i];b.addEventListener('change',update);});
+  function update(){
+    var done=0,state=[];
+    boxes.forEach(function(b){state.push(b.checked);if(b.checked)done++;});
+    fill.style.width=(done/boxes.length*100)+'%';
+    msg.textContent=done===boxes.length?'You earned today. Well done!':
+      done>0?done+' of '+boxes.length+' done. Keep going!':'';
+    try{localStorage.setItem(key,JSON.stringify(state));}catch(e){}
+  }
+  update();
+})();
+</script>
+</body>
+</html>
